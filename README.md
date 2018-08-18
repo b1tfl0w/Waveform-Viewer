@@ -4,6 +4,7 @@ A simple application which draws a waveform from mic input signal or saw oscilla
 Libraries used:
 SDL2 https://www.libsdl.org/
 RtAudio https://www.music.mcgill.ca/~gary/rtaudio/index.html
+OpenGL https://www.opengl.org/
 
 //Install SDL2 and RtAudio Development libraries:
 sudo apt install librtaudio-dev libsdl2-dev
