@@ -11,3 +11,4 @@ sudo apt install librtaudio-dev libsdl2-dev
 //compile:
 g++ -g -O0 -Wall -o program main.cpp -I/usr/include/SDL2 -I /usr/include/GL -I /usr/include -I /usr/include/rtaudio -lSDL2 -lSDL2main -lGL -lGLU -lrtaudio
 
+![Alt text](waveform-viewer-screenshot.jpg?raw=true "Screenshot")
