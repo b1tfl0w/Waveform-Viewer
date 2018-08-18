@@ -185,7 +185,6 @@ void render()
 	{
 		//draw waveform
 		glBegin(GL_LINES);
-		// glColor3f(map(mybuffer[i], -0.1, 0.1, 0.0f, 1.0f),map(mybuffer[i],-0.1, 0.1, 0.0f, 1.0f),map(mybuffer[i], -0.1, 0.1, 0.0f, 1.0f));
 		glVertex2f(map(i, 0, 512, -1.0f, 1.0f), map(mybuffer[i], -0.1, 0.1, -1.0f, 1.0f));
 		glVertex2f(map(i + 1, 0, 512, -1.0f, 1.0f), map(mybuffer[i + 1], -0.1, 0.1, -1.0f, 1.0f));
 		glEnd();
